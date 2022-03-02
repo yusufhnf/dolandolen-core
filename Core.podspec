@@ -12,7 +12,7 @@ s.ios.deployment_target = '14.0'
 s.name = "Core"
 s.summary = "Dicoding Core.framework for modularization chapter"
 s.requires_arc = true
-s.version = "1.0.0"
+s.version = "1.0.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Yusuf Umar Hanafi" => "flyme.yusuf@gmail.com" }
 s.homepage = "https://github.com/yusufhnf/dolandolen-core"
@@ -20,6 +20,7 @@ s.source = { :git => "https://github.com/yusufhnf/dolandolen-core.git", :tag => 
 s.framework = "UIKit"
 s.source_files = "Core/**/*.{swift}"
 s.swift_version = "5.5"
+s.dependency 'RxSwift'
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
